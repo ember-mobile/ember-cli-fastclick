@@ -14,7 +14,7 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Moritz Lawitschka",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^1.0.0",
