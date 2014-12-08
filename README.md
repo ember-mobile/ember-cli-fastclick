@@ -2,7 +2,7 @@
 
 Drop-in FastClick support for Ember CLI apps.
 
-For more information on FastClick visit http://ftlabs.github.io/fastclick/ for more information
+For more information on FastClick visit http://ftlabs.github.io/fastclick.
 
 ## Installation
 
