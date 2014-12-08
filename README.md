@@ -1,25 +1,14 @@
-# Ember-cli-fastclick
+# Ember CLI FastClick
 
-This README outlines the details of collaborating on this Ember addon.
+Drop-in FastClick support for Ember CLI apps.
+
+For more information on FastClick visit http://ftlabs.github.io/fastclick/ for more information
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+1. Install the addon: `npm install --save-dev ember-cli-fastclick`
+2. Run the installer: `ember g ember-cli-fastclick`
+3. There is no third step...
 
-## Running
-
-* `ember server`
-* Visit your app at http://localhost:4200.
-
-## Running Tests
-
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+When you now acces your app from a mobile device you should see that the 300ms
+touch delay was removed and the app feels more like a native app.
