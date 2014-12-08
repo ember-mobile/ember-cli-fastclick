@@ -10,11 +10,11 @@
     "build": "ember build",
     "test": "ember test"
   },
-  "repository": "",
+  "repository": "git@github.com:ember-mobile/ember-cli-fastclick.git",
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Moritz Lawitschka",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^1.0.0",
@@ -31,7 +31,7 @@
     "express": "^4.8.5",
     "glob": "^4.0.5"
   },
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Drop-in FastClick support for Ember CLI apps.",
   "keywords": [
     "ember-addon"
   ],
