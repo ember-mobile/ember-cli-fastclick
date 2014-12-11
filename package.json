@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-fastclick",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -33,7 +33,14 @@
   },
   "description": "Drop-in FastClick support for Ember CLI apps.",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember",
+    "fast",
+    "click",
+    "fastclick",
+    "mobile",
+    "touch",
+    "delay"
   ],
   "ember-addon": {
     "configPath": "tests/dummy/config"
