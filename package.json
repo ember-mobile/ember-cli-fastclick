@@ -33,7 +33,14 @@
   },
   "description": "Drop-in FastClick support for Ember CLI apps.",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember",
+    "fast",
+    "click",
+    "fastclick",
+    "mobile",
+    "touch",
+    "delay"
   ],
   "ember-addon": {
     "configPath": "tests/dummy/config"
