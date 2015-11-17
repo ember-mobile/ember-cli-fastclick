@@ -6,7 +6,7 @@ For more information on FastClick visit http://ftlabs.github.io/fastclick.
 
 ## Installation
 
-1. Install the addon: `npm install --save-dev ember-cli-fastclick`
+1. Install the addon: `ember install ember-cli-fastclick`
 2. Run the installer: `ember g ember-cli-fastclick`
 3. There is no third step...
 
