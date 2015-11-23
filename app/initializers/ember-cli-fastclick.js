@@ -5,7 +5,7 @@ var EmberCliFastclickInitializer = {
 
   initialize: function() {
     Ember.run.schedule('afterRender', function() {
-      FastClick.attach(document.body)
+      FastClick.attach(document.body);
     });
   }
 }
