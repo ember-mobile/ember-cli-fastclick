@@ -10,7 +10,7 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "git@github.com:ember-mobile/ember-cli-fastclick.git",
+  "repository": "https://www.github.com/ember-mobile/ember-cli-fastclick",
   "engines": {
     "node": ">= 0.10.0"
   },
