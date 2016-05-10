@@ -1,13 +1,15 @@
 import Ember from 'ember';
 
-var EmberCliFastclickInitializer = {
+const { run: { schedule } } = Ember;
+
+let EmberCliFastclickInitializer = {
   name: 'fastclick',
 
-  initialize: function() {
-    Ember.run.schedule('afterRender', function() {
+  initialize() {
+    schedule('afterRender', function() {
       FastClick.attach(document.body);
     });
   }
-}
+};
 
 export default EmberCliFastclickInitializer;
