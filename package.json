@@ -49,7 +49,10 @@
     "delay"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.1.6"
+    "broccoli-funnel": "^1.0.1",
+    "broccoli-merge-trees": "^1.1.1",
+    "ember-cli-babel": "^5.1.6",
+    "fastclick": "^1.0.6"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
