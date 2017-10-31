@@ -6,9 +6,11 @@ let EmberCliFastclickInitializer = {
   name: 'fastclick',
 
   initialize() {
-    schedule('afterRender', function() {
-      FastClick.attach(document.body);
-    });
+    	if (typeof FastBoot === 'undefined') {
+        schedule('afterRender', function() {
+          FastClick.attach(document.body);
+        });
+      }
   }
 };
 
