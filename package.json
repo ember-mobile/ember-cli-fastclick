@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-fastclick",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -18,7 +18,6 @@
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
-    "broccoli-stew": "^1.5.0",
     "ember-ajax": "0.7.1",
     "ember-cli": "2.5.0",
     "ember-cli-app-version": "^1.0.0",
@@ -51,6 +50,7 @@
   "dependencies": {
     "broccoli-funnel": "^1.0.1",
     "broccoli-merge-trees": "^1.1.1",
+    "broccoli-stew": "^1.0.1",
     "ember-cli-babel": "^5.1.6",
     "fastclick": "^1.0.6"
   },
