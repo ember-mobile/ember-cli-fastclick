@@ -1,9 +1,11 @@
 import { schedule } from '@ember/runloop';
 
 export function initialize() {
-  schedule('afterRender', function() {
-    FastClick.attach('body');
-  });
+  if (typeof FastBoot === 'undefined') {
+    schedule('afterRender', function() {
+      FastClick.attach('body');
+    });
+  }
 }
 
 export default {
