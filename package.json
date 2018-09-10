@@ -1,13 +1,23 @@
 {
   "name": "ember-cli-fastclick",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "1.4.1",
+  "description": "Drop-in FastClick support for Ember CLI apps",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember",
+    "fast",
+    "click",
+    "fastclick",
+    "mobile",
+    "touch",
+    "delay"
   ],
-  "repository": "",
+  "repository": "https://www.github.com/ember-mobile/ember-cli-fastclick",
   "license": "MIT",
-  "author": "",
+  "author": {
+    "name": "Moritz Lawitschka",
+    "email": "me@moritzlawitschka.de"
+  },
   "directories": {
     "doc": "doc",
     "test": "tests"
