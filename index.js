@@ -1,4 +1,3 @@
-/* jshint node: true */
 'use strict';
 
 var path = require('path');
@@ -9,15 +8,15 @@ var map = require('broccoli-stew').map;
 module.exports = {
   name: 'ember-cli-fastclick',
 
-  included: function(app) {
+  included(app) {
     this._super.included(app);
     app.import(this.treePaths.vendor + '/fastclick/fastclick.js');
   },
 
-  treeForVendor: function(vendorTree) {
+  treeForVendor(defaultTree) {
     var trees = [];
-    if (vendorTree) {
-      trees.push(vendorTree);
+    if (defaultTree) {
+      trees.push(defaultTree);
     }
     var libPath = path.dirname(require.resolve('fastclick'));
     var fastclickLib = new broccoliFunnel(libPath, {
