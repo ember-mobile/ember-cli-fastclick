@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-fastclick",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "description": "Drop-in FastClick support for Ember CLI apps",
   "keywords": [
     "ember-addon",
