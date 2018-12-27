@@ -14,3 +14,27 @@ This is addon is installed in one simple step:
 
 When you now access your app from a mobile device you should see that the 300ms
 touch delay was removed and the app feels more like a native app.
+
+## Configuration
+
+Sometimes you may want to use FastClick on specific browsers only. To do this, you can disable the automatic attachment of FastClick:
+
+```js
+// app/config/environment.js
+
+ENV.fastclick.autoboot = false;
+```
+
+And now you can use your custom initializer for FastClick:
+
+```js
+// app/initializers/fastclick-safari.js
+
+export function initialize() {
+  if (typeof FastBoot === 'undefined' && isSafari && otherConditions) {
+    schedule('afterRender', function() {
+      FastClick.attach('body');
+    });
+  }
+}
+```
